@@ -1,6 +1,5 @@
 build:
-	bin/docker-build.sh
+	bin/build.sh
 
 push:
-	bin/docker-build.sh
-	bin/push-sevenops.sh
+	bin/push-to-registry.sh
